@@ -1,7 +1,7 @@
 ---
 
 name: Ansible Playbook Workflow
-
+# yamllint disable-line rule:truthy
 on:
   workflow_dispatch:
 
