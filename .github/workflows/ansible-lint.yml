@@ -1,6 +1,7 @@
 ---
 
 name: Ansible Lint
+# yamllint disable-line rule:truthy
 on: [push]
 
 jobs:

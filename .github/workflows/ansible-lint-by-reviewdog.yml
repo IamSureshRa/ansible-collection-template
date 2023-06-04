@@ -1,6 +1,7 @@
 ---
 
 name: Ansible Lint By reviewdog
+# yamllint disable-line rule:truthy
 on: [pull_request]
 jobs:
   reviewdog-ansible-lint:
